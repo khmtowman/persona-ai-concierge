@@ -238,6 +238,32 @@ Potential enhancements include:
 
 These are proposed enhancements, not currently implemented features.
 
+## 📸 Screenshots & Demo Preview
+
+Explore the customer-facing interface and key interaction stages of Persona AI Concierge.
+
+### Welcome Screen
+
+![Welcome Screen](screenshots/customer-interface/welcome-screen.png)
+
+### Bilingual Service Discovery
+
+**Bangla Service Menu**
+
+![Bangla Service Menu](screenshots/customer-interface/bangla-service-menu.png)
+
+**English Service Menu**
+
+![English Service Menu](screenshots/customer-interface/english-service-menu.png)
+
+### Appointment Assistance
+
+The agent collects customer preferences, summarizes the requested service, outlet, date, and time, and provides a handoff to the official appointment portal.
+
+![Appointment Preference Summary](screenshots/customer-interface/final-summary.png)
+
+[View All Customer Interface Screenshots](screenshots/customer-interface/README.md)
+
 ## 📚 Project Documentation
 
 | Document | Description |
