@@ -1,57 +1,59 @@
 # 🤖 Persona AI Concierge — Bilingual AI Salon Assistant
 
-## 🌐 Live Demo
+<p align="center">
+  <strong>A bilingual AI-powered customer service and appointment-assistance agent built for Persona, a beauty and salon business in Bangladesh.</strong>
+</p>
 
-**[Try Persona AI Concierge](https://lowb4k5vhfca.run.agentplace.io/)**
-
-A bilingual (Bangla & English) AI-powered customer service and appointment-assistance agent built using Agentplace and GPT-6 Luna for Persona, a beauty and salon business in Bangladesh.
+<p align="center">
+  <a href="https://lowb4k5vhfca.run.agentplace.io/">🌐 Live Demo</a> ·
+  <a href="https://appointment.persona.com.bd/">Official Appointment Portal</a>
+</p>
 
 ---
 
 ## 📌 Project Overview
 
-Persona AI Concierge is a customer-facing AI agent designed to improve how customers interact with Persona's beauty and salon services.
+Persona AI Concierge is a publicly deployed, customer-facing conversational AI agent designed to help customers interact with Persona's beauty and salon services.
 
-The agent helps customers explore available services, understand the service menu, communicate their preferences, and navigate the appointment-request process through Persona's official booking portal.
+Built using Agentplace and GPT-6 Luna, the assistant communicates in **Bangla and English**, helps customers explore available services, guides them through appointment preferences, and directs them to the official appointment portal.
 
-It supports both Bangla and English, providing an accessible conversational experience for customers.
+The project demonstrates practical applications of:
 
-The project demonstrates practical applications of Agentic AI, conversational AI design, prompt engineering, knowledge integration, workflow design, vibe coding, testing, and deployment.
-
----
+- Agentic AI and conversational AI
+- Prompt engineering and behavioral design
+- Business knowledge integration
+- AI-assisted development and vibe coding
+- Conversational workflow design
+- Manual testing and validation
+- Public AI agent deployment
 
 ## 🎯 Problem Statement
 
-Customers looking for salon and beauty services often need assistance with:
+Customers looking for salon and beauty services may need help with:
 
 - Exploring available services.
-- Understanding different service categories.
-- Finding the appropriate service options.
-- Communicating their appointment preferences.
+- Understanding service categories.
+- Selecting suitable service options.
+- Communicating appointment preferences.
 - Navigating the appointment-request process.
 
-Traditional information channels may require customers to search through multiple pages or contact the business directly for basic assistance.
-
-Persona AI Concierge addresses these challenges through a conversational AI interface that provides structured service information and guides customers towards the official appointment portal.
-
----
+Persona AI Concierge addresses these needs through a bilingual conversational interface that makes service discovery and appointment assistance more accessible.
 
 ## 🎯 Project Objectives
 
-- Build a practical AI-powered customer service agent for a real business.
-- Provide bilingual customer interaction in Bangla and English.
-- Organize and integrate verified business service information.
-- Help customers explore and select services conversationally.
-- Implement a guided appointment-preference collection workflow.
-- Provide a seamless handoff to the official booking portal.
-- Ensure responsible AI responses by avoiding unsupported information.
-- Publish a publicly accessible customer-facing AI agent.
-
----
+- Build a practical AI-powered customer service assistant.
+- Support natural conversations in Bangla and English.
+- Integrate verified, owner-supplied business service information.
+- Enable conversational service discovery and selection.
+- Design a guided appointment-preference workflow.
+- Provide a handoff to the official appointment portal.
+- Reduce unsupported AI-generated business information.
+- Deploy a publicly accessible customer-facing agent.
 
 ## ✨ Key Features
 
 ### 1. Bilingual Conversational AI
+
 - Supports Bangla and English.
 - Responds according to the customer's language.
 - Provides natural conversational assistance.
@@ -59,7 +61,7 @@ Persona AI Concierge addresses these challenges through a conversational AI inte
 
 ### 2. Business Knowledge Integration
 
-Integrates Persona's owner-supplied service menus across four categories, covering 20 listed services.
+The agent uses owner-supplied service information covering 20 services across four categories.
 
 **Facial Services**
 - Bright Nourishing Facial
@@ -89,39 +91,46 @@ Integrates Persona's owner-supplied service menus across four categories, coveri
 - Hair Do
 - Mehendi
 
-### 3. Intelligent Service Discovery
-- Helps customers explore the available service categories.
-- Presents verified service names.
-- Supports conversational service selection.
-- Avoids inventing treatment details or benefits.
+### 3. Conversational Service Discovery
+
+- Introduces the available service categories.
+- Presents the supplied service names.
+- Helps customers select a specific service.
+- Avoids inventing unsupported treatment details or benefits.
 
 ### 4. Guided Appointment Assistance
 
-Provides a structured conversational booking-assistance workflow.
+The agent guides customers through a structured conversation.
 
-The agent can:
-- Identify the customer's selected service.
-- Ask for their preferred outlet.
-- Collect their preferred appointment date.
-- Collect their preferred appointment time.
+It can:
+
+- Identify the selected service.
+- Ask for a preferred outlet.
+- Collect a preferred appointment date.
+- Collect a preferred appointment time.
 - Summarize the customer's preferences.
-- Direct customers to Persona's official appointment portal.
+- Direct customers to the official appointment portal.
 
-### 5. Official Booking Portal Integration (Customer-Led Handoff)
+### 5. Official Appointment Portal Handoff
 
-Directs customers to Persona's official appointment portal:
+The agent directs customers to Persona's official appointment portal:
 
-https://appointment.persona.com.bd/
+**https://appointment.persona.com.bd/**
 
-Customers enter their own contact information and submit their appointment requests through the official portal.
+Customers continue the appointment process independently on the portal and enter their own contact information.
 
-### 6. Responsible AI Behaviour
-- Does not invent service prices.
-- Does not assume treatment ingredients or benefits.
-- Does not fabricate outlet information.
-- Does not claim to verify appointment availability.
-- Does not claim to submit or confirm appointments.
-- Clearly distinguishes customer preferences from confirmed bookings.
+**Important:** This is a customer-led handoff, not a direct booking-system integration. The agent does not verify live availability, submit appointments, or retrieve booking confirmations.
+
+### 6. Responsible AI Behavior
+
+The agent is designed to:
+
+- Avoid inventing service prices.
+- Avoid unsupported treatment ingredients or benefits.
+- Avoid fabricating outlet information.
+- Avoid claiming real-time appointment availability.
+- Avoid claiming successful appointment submission.
+- Distinguish customer preferences from confirmed bookings.
 
 ---
 
@@ -129,107 +138,114 @@ Customers enter their own contact information and submit their appointment reque
 
 | Technology / Tool | Application |
 |---|---|
-| Agentplace | AI agent development and deployment platform |
+| Agentplace | AI agent development and deployment |
 | GPT-6 Luna | Customer-facing AI model |
 | Agentic AI | Conversational agent capabilities |
-| Prompt Engineering | Agent instructions and behavioural design |
-| Knowledge Integration | Business service information |
-| UI Interaction | Customer-facing conversational interface |
-| MCP | Built-in UI interaction capability |
+| Prompt Engineering | Instructions and behavioral design |
+| Knowledge Integration | Persona's supplied business information |
+| Agent Skills | Salon-specific knowledge and UI interaction capabilities |
+| MCP / UI Interaction | Built-in customer-interface interaction capability |
 | Bangla & English | Bilingual conversational experience |
 | Vibe Coding | AI-assisted development workflow |
+| GitHub | Version control and project documentation |
 
----
+*The built-in UI interaction capability is not an external integration with Persona's booking database or CRM.*
 
 ## 🏗️ Agent Architecture
 
-The project follows a conversational AI architecture in which the customer interacts with a deployed AI agent.
+The project uses a conversational AI architecture connecting the customer-facing interface, configured language model, agent skills, and business knowledge.
 
 ```mermaid
 flowchart TD
-    A[Customer] --> B[Persona AI Concierge]
-    B --> C[GPT-6 Luna]
-    C --> D[Agent Skills]
-    D --> E[Persona Business Knowledge]
-    E --> F[Service Discovery]
-    F --> G[Customer Preferences]
-    G --> H[Appointment Summary]
-    H --> I[Official Booking Portal]
-    I --> J[Customer Submits Request]
-    J --> K[Persona Booking Process]
+    A[Customer] --> B[Public Agent Interface]
+    B --> C[Persona AI Concierge]
+    C --> D[GPT-6 Luna]
+    D --> E[Agent Skills]
+    E --> F[Persona Business Knowledge]
+    F --> G[Service Discovery]
+    G --> H[Customer Preferences]
+    H --> I[Appointment Preference Summary]
+    I --> J[Official Persona Portal]
+    J --> K[Customer Continues Booking Process]
 ```
 
-The agent uses its configured customer-facing model, business knowledge and conversational instructions to guide customers through the service-discovery and appointment-assistance journey.
+The agent handles conversational assistance and preference collection. The official appointment portal is an external customer-facing destination; no direct booking API connection is implemented.
 
----
+For further details, see [Agent Architecture](docs/agent-architecture.md).
 
 ## 🔄 Customer Conversation Workflow
 
 The customer journey follows these stages:
 
 1. **Customer Interaction:** Customer opens the public AI assistant.
-2. **Language Detection:** Agent communicates in Bangla or English.
-3. **Service Discovery:** Customer explores available service categories.
-4. **Service Selection:** Customer selects a preferred service.
-5. **Preference Collection:** Agent asks about preferred outlet, date and time.
+2. **Language Selection:** Agent communicates in Bangla or English.
+3. **Service Discovery:** Customer explores available categories.
+4. **Service Selection:** Customer chooses a preferred service.
+5. **Preference Collection:** Agent asks about outlet, date, and time.
 6. **Preference Summary:** Agent summarizes the customer's stated preferences.
-7. **Booking Handoff:** Agent provides the official appointment portal.
-8. **Customer Submission:** Customer enters their contact information and submits the appointment request through Persona's portal.
+7. **Portal Handoff:** Agent provides the official appointment portal.
+8. **Customer Action:** Customer continues the process independently on the portal.
 
----
+See [Conversation Workflow](docs/conversation-workflow.md) for the detailed workflow and an example conversation.
 
 ## 🧪 Testing & Validation
 
-The agent was tested through both Bangla and English conversations.
+The agent underwent manual functional testing through its published customer-facing interface.
 
-**Testing areas included:**
-
-| Test Category | Validation |
+| Testing Area | Validation |
 |---|---|
 | Language Support | Bangla and English conversations |
-| Service Discovery | All four service categories |
-| Service Accuracy | All 20 supplied service names |
-| Appointment Guidance | Guided preference collection |
+| Service Discovery | Four service categories |
+| Service Knowledge | 20 supplied service names |
+| Service Selection | Conversational selection |
+| Appointment Guidance | Preference collection workflow |
 | Outlet Handling | Unknown outlet handled without invention |
-| Date & Time | Recorded as customer preferences |
+| Date & Time | Acknowledged as customer preferences |
 | Booking Handoff | Official Persona portal |
-| Responsible Responses | No invented prices or availability |
-| Booking Confirmation | No false confirmation claims |
-| Public Deployment | Verified through an incognito browser |
+| Responsible Responses | No unsupported prices or availability claims |
+| Public Deployment | Access verified through an incognito browser |
 
-The published agent was also tested independently to verify public accessibility and basic chat functionality.
+The testing was manual. Automated unit testing, performance testing, security penetration testing, and actual appointment submission were not performed.
 
----
+See [Testing & Validation](docs/testing-and-validation.md) for the test cases, observations, and limitations.
 
 ## 🚧 Current Limitations
 
-The current implementation provides conversational booking assistance rather than fully automated appointment booking.
+The current implementation provides conversational appointment assistance rather than fully automated booking.
 
 - No direct connection to Persona's booking database.
 - No live appointment availability checking.
 - No automated appointment submission.
 - No booking-status verification.
-- No connected external CRM or calendar integration.
-- Service pricing and detailed treatment information are not available in the verified knowledge base.
+- No external CRM or calendar integration.
+- No verified service pricing or detailed treatment information in the available knowledge base.
 
-These capabilities would require authorized access to Persona's booking system and appropriate external integrations.
-
----
+These capabilities would require authorized business-system access and appropriate integrations.
 
 ## 🚀 Future Improvements
 
-Potential future enhancements include:
+Potential enhancements include:
 
-- Integration with an authorized booking API.
-- Live appointment availability checking.
-- Automated booking-request submission.
+- Authorized booking API integration.
+- Real-time outlet and appointment availability lookup.
+- Automated appointment-request submission.
 - CRM integration for customer management.
 - Calendar integration for appointment coordination.
-- Automated booking-status notifications.
+- Booking-status retrieval and notifications.
 - Expanded verified business knowledge.
-- More comprehensive conversational testing.
+- Automated conversational regression testing.
+- More comprehensive security and performance testing.
 
----
+These are proposed enhancements, not currently implemented features.
+
+## 📚 Project Documentation
+
+| Document | Description |
+|---|---|
+| [Project Overview](docs/project-overview.md) | Business context, problem, objectives, and project scope |
+| [Agent Architecture](docs/agent-architecture.md) | Architecture, components, and integration boundaries |
+| [Conversation Workflow](docs/conversation-workflow.md) | Customer journey and appointment-assistance workflow |
+| [Testing & Validation](docs/testing-and-validation.md) | Manual test cases, observed results, and limitations |
 
 ## 📁 Repository Structure
 
@@ -238,28 +254,14 @@ persona-ai-concierge/
 │
 ├── README.md
 │
-├── docs/
-│   ├── project-overview.md
-│   ├── agent-architecture.md
-│   ├── conversation-workflow.md
-│   └── testing-and-validation.md
-│
-├── screenshots/
-│   ├── agentplace-builder/
-│   ├── customer-interface/
-│   ├── bangla-tests/
-│   ├── english-tests/
-│   └── booking-journey/
-│
-├── diagrams/
-│   ├── agent-architecture.png
-│   └── conversation-flow.png
-│
-└── assets/
-    └── project-banner.png
+└── docs/
+    ├── project-overview.md
+    ├── agent-architecture.md
+    ├── conversation-workflow.md
+    └── testing-and-validation.md
 ```
 
----
+Additional screenshots, diagrams, and visual assets may be added as the portfolio documentation evolves.
 
 ## 👨‍💻 Author
 
@@ -267,10 +269,9 @@ persona-ai-concierge/
 
 Aspiring AI Automation Engineer | AI Engineering Enthusiast
 
-**GitHub:** https://github.com/khmtowman
-
-**Live Project:** https://lowb4k5vhfca.run.agentplace.io/
+- **GitHub:** https://github.com/khmtowman
+- **Live Project:** https://lowb4k5vhfca.run.agentplace.io/
 
 ---
 
-⭐ If you find this project interesting, feel free to explore the live demo and the repository.
+⭐ Explore the live demo and project documentation to see how conversational AI can support real-world customer service workflows.
