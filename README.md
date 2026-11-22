@@ -276,15 +276,25 @@ The agent collects customer preferences, summarizes the requested service, outle
 ## 📁 Repository Structure
 
 ```text
+
 persona-ai-concierge/
 │
 ├── README.md
 │
-└── docs/
-    ├── project-overview.md
-    ├── agent-architecture.md
-    ├── conversation-workflow.md
-    └── testing-and-validation.md
+├── docs/
+│   ├── project-overview.md
+│   ├── agent-architecture.md
+│   ├── conversation-workflow.md
+│   └── testing-and-validation.md
+│
+└── screenshots/
+    └── customer-interface/
+        ├── README.md
+        ├── welcome-screen.png
+        ├── bangla-service-menu.png
+        ├── english-service-menu.png
+        └── final-summary.png
+
 ```
 
 Additional screenshots, diagrams, and visual assets may be added as the portfolio documentation evolves.
